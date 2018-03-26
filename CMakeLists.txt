@@ -1,4 +1,6 @@
 cmake_minimum_required(VERSION 2.6 )
 set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
+set (CMAKE_C_COMPILER "gcc")
+set (CMAKE_CXX_COMPILER "g++")
 project (RedFlare)
-add_executable(RedFlare examples.cpp examples.cpp examples.h)
+add_executable(RedFlare examples.cpp examples.cpp examples.h lmem_mod/lmem.c lmem_mod/lmem.h)
