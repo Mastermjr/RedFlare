@@ -21,7 +21,7 @@ class Example {
 	protected:
 		int ExampleX(std::string a);
 	public:
-	Example(int m);
+	explicit Example(int m);
 	Example();
 	
 	int ExampleA(int a, int b);
