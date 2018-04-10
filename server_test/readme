@@ -1,0 +1,6 @@
+#COMPILE
+	gcc server.cc -o server
+#RUN 
+	./server
+#connect on other machine on subnet
+	nc [SERVER_IP] [PORT]
